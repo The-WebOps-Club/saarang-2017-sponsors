@@ -1,0 +1,156 @@
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* makes the font 33% larger relative to the icon container */
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fa-2x {
+  font-size: 2em;
+}
+.fa-3x {
+  font-size: 3em;
+}
+.fa-4x {
+  font-size: 4em;
+}
+.fa-5x {
+  font-size: 5em;
+}
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+.fa-ul > li {
+  position: relative;
+}
+.fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+.fa-li.fa-lg {
+  left: -1.85714286em;
+}
+.fa-facebook:before {
+  content: "\f09a";
+}
+.fa-youtube:before {
+  content: "\f167";
+}
+.fa-instagram:before {
+  content: "\f16d";
+}
+.fa-twitter:before {
+  content: "\f099";
+}
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+	ul.contact
+	{
+		padding: 1.5em 0 0 0;
+		list-style: none;
+		cursor: default;
+	}
+	
+	ul.contact li
+	{
+		display: inline-block;
+		margin: 0 1em;
+	}
+	
+	ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul.contact li a
+	{
+		color: #777;
+		font-size: 1.75em;
+		display: inline-block;
+		-moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		-webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		-o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		-ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	}
+	
+	ul.contact li a:hover
+	{
+		color: #fff;
+	}
+
+/*******************************************************
+Custom CSS
+*******************************************************/
+a,
+a:link,
+a:visited
+{
+	color: #777;
+	text-decoration:none;
+}
+a:hover
+{
+	color: #fff;
+	text-decoration:none;
+	-moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	-webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	-o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	-ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+}
+.fp-tableCell{
+  height:100%;
+	/*padding:0 5em 0 5em;*/
+}
+.profile-circle:before {      /* create a full-height inline block pseudo-element */
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle; /* vertical alignment of the inline element */
+    height: 100%;
+}
+.profile-circle {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border:3px solid #fff;
+    border-radius: 100px;
+    background-color:rgba(138, 139, 142,0.5);
+}
+.icon{
+    display: inline-block;
+    vertical-align: middle;          /* vertical alignment of the inline element */
+}
+/*@media screen and (min-width: 480px) {
+	.logo{
+		width: 60px;
+		height:60px;
+	}
+}
+@media screen and (min-width: 960px) {
+	.logo{
+		width: 120px;
+		height:120px;
+	}
+}
+*/
